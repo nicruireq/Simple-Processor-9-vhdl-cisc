@@ -1,0 +1,33 @@
+#
+#   .gitignore for Quartus II projects and ModelSim
+#
+#
+
+# Include all hdl files
+#   *.vhd
+#   *.v
+
+# Exclude propietary Quartus project files and folders
+*.cmp
+*.bak
+*.qpf
+*.qsf
+*.qwf
+*.qws
+*.vwf
+./*.tcl
+/db
+/incremental_db
+/output_files
+/simulation
+
+# Exclude ModelSim's compilation files
+/ModelSim/vsim.wlf
+/ModelSim/work
+
+# Exclude log files
+*.log
+*.txt
+
+mealy_asynchonicity_controlunit.png
+
